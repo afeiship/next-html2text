@@ -10,7 +10,7 @@ npm install -S @feizheng/next-html2text
 ```js
 import '@feizheng/next-html2text';
 
-nx.html2text("<p>we&#x27;d|better|not.|I|don&#x27;t|want|to|miss|the|train|yeah!</p>")
+nx.html2text("<p>we&#x27;d|better|not.|I|don&#x27;t|want|to|miss|the|train|.</p>")
 // we'd|better|not.|I|don't|want|to|miss|the|train|.
 ```
 
