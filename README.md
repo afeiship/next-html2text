@@ -16,3 +16,4 @@ nx.html2text("<p>we&#x27;d|better|not.|I|don&#x27;t|want|to|miss|the|train|yeah!
 
 ## resources
 - https://stackoverflow.com/questions/822452/strip-html-from-text-javascript
+- https://ourcodeworld.com/articles/read/376/how-to-strip-html-from-a-string-extract-only-text-content-in-javascript
