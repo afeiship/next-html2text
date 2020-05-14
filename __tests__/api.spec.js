@@ -1,12 +1,20 @@
 const nx = require('@feizheng/next-js-core2');
 require('../src/next-html2text');
 
+
 describe('api.basic test', () => {
-  test('nx.html2text', function() {
-    const obj1 = { name: 'fei' };
-    const obj2 = { email: '1290657123@qq.com' };
-    const result = {};
-    nx.html2text(result, obj1, obj2);
-    expect(result.name, obj1.name).toBe(null);
+  test('shoud get text when html exist', function () {
+    var html = '<p>we&#x27;d|better|not.|I|don&#x27;t|want|to|miss|the|train|.</p>';
+    expect(nx.html2text(html)).toBe(`we'd|better|not.|I|don't|want|to|miss|the|train|.`);
+  });
+
+  test('empty tag will get empty', function () {
+    var html = '<p></p>';
+    expect(nx.html2text(html)).toBe('');
+  });
+
+  test('shoud get html when html is empty', function () {
+    var html = '';
+    expect(nx.html2text(html)).toBe('');
   });
 });
