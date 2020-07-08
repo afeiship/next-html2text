@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-html2text",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Strip html to text for next.",
   "homepage": "https://github.com/afeiship/next-html2text",
   "author": {
