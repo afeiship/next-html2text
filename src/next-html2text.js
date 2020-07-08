@@ -3,7 +3,7 @@
   var nx = global.nx || require('@feizheng/next-js-core2');
 
   nx.html2text = function (inHtml) {
-    if(!inHtml) return inHtml;
+    if (!inHtml) return inHtml;
     var tmp = document.createElement("DIV");
     tmp.innerHTML = inHtml;
     return tmp.textContent || tmp.innerText || "";
