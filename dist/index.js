@@ -2,8 +2,8 @@
  * name: @jswork/next-html2text
  * description: Strip html to text for next.
  * homepage: https://github.com/afeiship/next-html2text
- * version: 1.0.0
- * date: 2021-03-05 10:33:18
+ * version: 1.0.1
+ * date: 2021-03-05 10:33:55
  * license: MIT
  */
 
